@@ -1,0 +1,56 @@
+.form-main{
+  height: 100vh;
+  width: 100%;
+  background-color: #dfe6e9;
+  position: relative;
+   
+}
+
+.form-child{
+  height:auto;
+  width: 97%;
+  margin-left: 1%;
+  margin-top: 1%;
+  position:absolute;
+  /* background-color: blue; */
+}
+
+.inner-items label{
+  padding: 10px;
+  margin-left: 13px;
+}
+#name{
+    width:80%;
+    
+}
+.inner-items .input{
+
+  outline: none;
+
+}
+#email{
+  margin-left: 3px;
+}
+
+#address{
+  width: 80%;
+}
+#country{
+  width: 60%;
+}
+
+#nationality{
+  width: 65%;
+}
+
+
+.btn-groups{
+  width: 200px;
+  height: 40px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
